@@ -1,0 +1,501 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    padding:11px 0;
+    box-shadow: 0 0 10px black;
+    position: fixed;
+    background:rgb(43, 42, 65);
+    z-index: 6545;
+}
+header .toggler {
+        font-size: 25px;
+        display: none;
+    }
+    
+
+header .nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: auto;
+}
+header .nav .logo i{
+    font-size: 40px;
+    color: rgb(144, 160, 244); 
+   
+}
+header .nav .navbar ul{
+  list-style-type: none;
+  display: flex;
+}
+header .nav .navbar ul li{
+    padding-right:23px ;
+    margin-top:8px ;
+}
+header .nav .navbar ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+header .nav .navbar ul li a:hover{
+    color: rgb(144, 160, 244);
+    transition: 0.2s;
+}
+header .nav .navbar ul button{
+    border: 2px solid rgb(144, 160, 244);
+    padding:10px 22px ;
+    background-color: white;
+    border-radius:40px ;
+  
+}
+header .nav .navbar ul button:hover{
+ background-color: blue;
+ transition: 0.3s;
+  
+}
+header .nav .navbar ul button a{
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    width: 100%;
+    height: 70vh;
+    background: url(../img/3333.jpg)top fixed;
+    background-attachment: fixed;
+   padding-top: 200px;
+
+}
+main .inf{
+    text-align: center;
+  margin-left: 700px;
+}
+main .inf p{
+    color: black;
+    padding-bottom: 3px;
+    font-size: 30px;
+    text-shadow: 0px 0px 10px #ffffff;
+}
+main .inf h1{
+    font-size: 80px;
+    text-shadow: 0px 0px 20px #ffffff;
+}
+.info{
+    padding: 120px 0 71px 0;
+}
+.info .imge{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+}
+.info .imge .imges1{
+    width: 33%;
+    background-color: black;
+    color: white;
+    height: 39vh;
+}
+
+.info .imge .imges1 i{
+    font-size: 57px;
+    padding-top: 40px;
+    padding-left: 70px;
+}
+.info .imge .imges1 p{
+       padding-top: 80px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.info .imge .imges2{
+    width: 33%; 
+    color: rgb(0, 0, 0);
+    height: 39vh;
+
+}
+.info .imge .imges2 p{
+    padding-top: 90px;
+    font-size: 15px;
+    text-align: center;
+}
+.info .imge .imges3{
+    background-image: url(../img/pexelsphoto3377909.jpeg);
+    background-size: cover;
+    width: 33%;
+    height: 39vh;}
+
+.info .imge2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+}
+.info .imge2 .imges1{
+    width: 33%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    height: 39vh;
+}
+.info .imge2 .imges1 p{
+    padding-top: 130px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.info .imge2 .imges2{
+    width: 33%; 
+   background: url(../img/pexelsphoto662417.jpeg);
+    background-size: cover;
+    height: 39vh;
+
+}
+.info .imge2 .imges3{
+
+    width: 33%;
+    height: 39vh;
+}
+.info .imge2 .imges3 p{
+    padding-top: 130px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.info2{
+    background: url(../img/123.jpeg)top fixed;
+    background-attachment: fixed;
+    width: 100%;
+    height: 70vh;
+    padding-top: 50px;
+}
+.info2 p{
+    color: white;
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.info2 p.one{
+    margin-left: 100px;
+padding-top: 15px;
+font-size: 25px;
+padding-bottom: 25px;
+}
+
+.info2 .button{
+    border: 2px solid rgb(99, 50, 213);
+padding: 10px 35px;
+border-radius: 30px;
+margin-left: 100px;
+font-size: 25px;
+text-decoration: none; 
+color:rgb(99, 50, 213) ;
+}
+.info2 .button:hover{
+    background-color: rgb(54, 17, 106);
+    transition: 0.3s;
+}
+
+
+.info3{
+    background-image: url(../img/ght.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    padding-top: 50px;
+}
+
+.info3 .x{
+    display: flex;
+    justify-content: space-between;
+ width: 70%;
+    margin: auto;
+    flex-wrap: wrap;
+   
+}
+
+
+.info3 .x1{
+    width: 35%;
+}
+.info3 .x1 h4{
+    margin-bottom: 6px;
+}
+.info3 .x1 h1{
+    margin-bottom: 6px;
+}
+
+.info3 .x2{
+    width: 55%;
+}
+.info3 .x2 img{
+    width: 100%;
+    height: 70vh;
+
+}
+.info4{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.info4 .x{
+    display: flex;
+    justify-content: space-around;
+ width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+ 
+   
+}
+.info4 .x1{
+    width: 23%;
+
+}
+.info4 .x1 img{
+    width: 100%;
+    height: 38vh;
+    border-radius: 170px;
+}
+
+
+
+    .info5{
+        width: 100%;
+    height: 60vh;
+    background: url(../img/pexelsphoto1458916.jpg);
+    background-size: cover;
+   padding-top: 40px;
+    }
+
+    .info5 h1{
+font-weight: 600;
+padding-left: 30px;
+text-shadow: 2px 2px 30px #000000;
+
+    }
+
+    footer{
+        font-size: 10px;
+    padding: 15px 0;
+    background-color: rgb(0, 0, 0);
+    color: beige;
+    text-align: center;
+    }
+    footer h1{
+        padding-bottom: 15px;
+    }
+    
+@media(max-width:950px) {
+    header .toggler {
+            display: block;
+            margin-left: auto;
+            font-size: 35px;
+       color: chartreuse;
+    
+        }
+        header .nav{
+       
+            width: 70%;}
+        
+        header .nav .logo{
+            width: 40px;}
+
+            header .nav .navbar ul{
+                display: none;
+              }
+              main{
+                background: url(../img/3333.jpg)top fixed;
+                background-attachment: fixed;
+            }
+
+            main .inf{
+                text-align: center;
+              margin-left: 0;
+              margin-top: 255px;
+            }
+
+            .info .imge{
+        
+                width: 90%;
+             
+            }
+            .info .imge2{
+              
+                width: 90%;
+            }
+            .info2 p{
+                font-size: 30px;
+            }
+            
+            .info2 p.one{
+            font-size: 35px;
+            }
+            .info2 .button{
+         
+            padding: 10px 45px;
+           
+            font-size: 30px;
+            }
+            .info2 .button:hover{
+                background-color: rgb(54, 17, 106);
+                transition: 0.3s;
+            }
+
+            .info3 .x{
+     
+             width: 80%;
+            }
+            .info3 .x2{
+                width: 60%;
+            }
+            .info4 .x{
+             width: 95%; 
+            }
+            .info4 .x1{
+                width: 25%;
+            }
+            .info4 .x1 img {
+                width: 90%;
+                height: 24vh;
+            }
+        
+        }
+        @media(max-width:740px){
+            header .toggler {
+               
+                margin-right: 10px;
+                font-size: 40px;
+            }
+             
+        header .nav .logo{
+            width: 45px;}
+            .info .imge{
+        
+                width: 90%;
+             
+            }
+            .info .imge2{
+              
+                width: 90%;
+            }
+            .info3 .x{
+     
+                width: 90%;
+               }
+               .info3 .x2{
+                   width: 65%;
+               }
+               .info4 .x{
+                width: 100%; 
+               }
+               .info4 .x1 img {
+                width: 97%;}
+
+        }
+        @media(max-width:600px){
+            .info .imge{
+                display: block;
+        
+                width: 65%;
+            }
+            .info .imge .imges1{
+                width: 100%;
+            
+            }
+            .info .imge .imges1 i{
+                font-size: 60px;
+                padding-left: 85px;
+            }
+            .info .imge .imges2{
+                width: 100%;       
+            }
+            .info .imge .imges2 p {
+                padding-top: 38px;
+                font-size: 25px;}
+
+            .info .imge .imges3{
+                width: 100%;
+            }
+            .info .imge2{
+                display: block;
+        
+                width: 65%;
+            }
+            .info .imge2 .imges1{
+                width: 100%;
+            
+            }
+            .info .imge2 .imges1 i{
+                font-size: 60px;
+                padding-left: 85px;
+            }
+            .info .imge2 .imges2{
+                width: 100%;       
+            }
+            .info .imge2 .imges2 p {
+                padding-top: 38px;
+                font-size: 25px;}
+
+            .info .imge2 .imges3{
+                width: 100%;
+            }
+            .info2{
+                height: 80vh;
+                padding-top: 150px;
+            }
+            .info2 p{
+                font-size: 30px;
+                margin-left: 75px;
+            }
+            
+            .info2 p.one{
+            font-size: 40px;
+            margin-left: 75px;
+            }
+            .info2 .button{
+         
+            padding: 10px 45px;
+            margin-left: 75px;
+            font-size: 35px;
+            }
+            .info2 .button:hover{
+                background-color: rgb(54, 17, 106);
+                transition: 0.3s;
+            }
+            .info3 .x{
+                display: block;
+             width: 100%;
+              
+            }
+            .info3 .x1 {
+                width: 86%;
+                padding-left: 40px;
+            }
+            .info3 .x2{
+                width: 100%;
+            }
+            .info3 .x2 img{
+             
+                height: 58vh;
+            
+            }
+            .info4{
+                margin-top: 80px;}
+                .info4 .x{
+                    width: 100%; 
+                   }
+                  
+                   .info4 .x1 img {
+                      
+                       height: 15vh;
+                   }
+            
+
+        }

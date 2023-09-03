@@ -1,0 +1,587 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    padding:11px 0;
+    box-shadow: 0 0 10px black;
+    position: fixed;
+    background:rgb(43, 42, 65);
+    z-index: 6545;
+}
+header .toggler {
+        font-size: 25px;
+        display: none;
+    }
+    
+
+header .nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: auto;
+}
+header .nav .logo i{
+    font-size: 40px;
+    color: rgb(144, 160, 244); 
+   
+}
+header .nav .navbar ul{
+  list-style-type: none;
+  display: flex;
+}
+header .nav .navbar ul li{
+    padding-right:23px ;
+    margin-top:8px ;
+}
+header .nav .navbar ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+header .nav .navbar ul li a:hover{
+    color: rgb(144, 160, 244);
+    transition: 0.2s;
+}
+header .nav .navbar ul button{
+    border: 2px solid rgb(144, 160, 244);
+    padding:10px 22px ;
+    background-color: white;
+    border-radius:40px ;
+  
+}
+header .nav .navbar ul button a{
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    width: 100%;
+    height: 70vh;
+    background: url(./img/234567890.jpg)top fixed;
+    background-attachment: fixed;
+   padding-top: 200px;
+
+
+}
+
+.info{
+    padding: 120px 0 71px 0;
+    text-align: center;
+    background-color: #a4a4a4;
+}
+.info h1{
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+.info p{
+    font-size: 19px;
+}
+
+.info .x{
+    display: flex;
+    justify-content: space-between;
+ width: 100%;
+    flex-wrap: wrap;
+    padding-top:100px ;
+   
+}
+.info .x .img1{
+    width: 28%;
+    height: 80vh;
+    background-color: white;
+    text-align: center;
+    margin-left: 40px;
+    border-radius: 40px;
+    border: 2px solid blue;
+}
+.info .x .img1 img{
+    width:80% ;
+    padding-top: 20px;
+border-radius: 30px;
+padding-bottom: 40px;
+}
+
+.info .x .img1 h4{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.info .x .img2{
+    width: 28%;
+    height: 80vh;
+    background-color: white;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 125px;
+    border-radius: 40px;
+    border: 2px solid blue;
+}
+.info .x .img2 img{
+    width:80% ;
+    padding-top: 20px;
+border-radius: 30px;
+padding-bottom: 40px;
+}
+
+.info .x .img2 h4{
+    font-size: 20px;
+    padding-bottom: 15px;
+}.info .x .img3{
+    width: 28%;
+    height: 80vh;
+    background-color: white;
+    text-align: center;
+   margin-right: 30px;
+    margin-top: 225px;
+    border-radius: 40px;
+    border: 2px solid blue;
+}
+.info .x .img3 img{
+    width:80% ;
+    padding-top: 20px;
+border-radius: 30px;
+padding-bottom: 40px;
+}
+
+.info .x .img3 h4{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.info2{
+    padding-top: 150px;
+}
+.info2 .x{
+        display: flex;
+        justify-content: space-between;
+     width: 87%;
+        margin: auto;
+        flex-wrap: wrap;
+       
+    
+}
+
+    .info2 .img{
+        padding-left: 30px;
+        width: 40%;
+    
+    }
+    .info2 .img img{
+        border-radius: 40px; 
+           width: 140%;
+    }
+    .info2 .x .inf{
+        width: 15%;
+        padding-right: 30px;
+        border-radius: 49px;
+        background-color: rgb(137, 135, 135);
+        height: 18vh;
+        text-align: center;
+    }
+    .info2 .x .inf h1{
+        padding-top: 15px;
+    }
+    .info2 .x .inf p{padding-left: 5px;}
+
+    .info2 .x .inf2{
+        width: 15%;
+        padding-right: 30px;
+        border-radius: 49px;
+        background-color: rgb(137, 135, 135);
+        height: 18vh;
+        text-align: center;
+        margin-top: 145px;
+    }
+    .info2 .x .inf2 h1{
+        padding-top: 15px;
+    }
+    .info2 .x .inf2 p{padding-left: 5px;}
+
+
+
+    .info2 .x .inf3{
+        width: 15%;
+        padding-right: 30px;
+        border-radius: 49px;
+        background-color: rgb(137, 135, 135);
+        height: 18vh;
+        text-align: center;
+        margin-top: 245px;
+    }
+    .info2 .x .inf3 h1{
+        padding-top: 15px;
+        
+    }
+    .info2 .x .inf3 p{padding-left: 5px;}
+    
+    .info3{
+        padding-top: 100px;
+        padding-bottom: 30px;
+    }
+
+    .info3 .x{
+        display: flex;
+        justify-content: space-between;
+     width: 70%;
+        margin: auto;
+        flex-wrap: wrap;
+        border: 2px solid #366ce6;
+        border-radius: 30px;
+   padding-left: 30px;
+   background: url(./img/gettyimages-1378245606-612x612.jpg);
+   background-size: cover;
+    }
+    .info3 .x .x1{
+        width: 43%;
+      
+    }
+    .info3 .x .x1 h1{
+        padding-bottom: 30px;
+        padding-top: 80px;
+        font-size: 40px;
+     
+    }
+    .info3 .x .x1 p{
+        padding-bottom: 30px;
+        font-size: 19px;
+        font-weight: 400;
+    }
+    .info3 .x1 .social{
+        padding-bottom: 20px;
+     
+    }
+    .info3 .x1 .social ul{
+        display: flex;
+        list-style-type: none;
+        }
+        .info3 .x1 .social ul li{
+         margin-right: 6px;
+         background-color: rgb(0, 0, 0);
+         padding: 10px;
+         text-align: center;
+         border-radius: 50%;
+         width: 26px;
+         height: 24px;
+     
+        }
+        .info3 .x1 .social ul li a{
+         color: white;
+        }
+
+        .info3 .x .info12{
+            width: 52%;
+            
+    padding: 120px 0 71px 0;
+    text-align: center;
+
+          
+        }
+
+        .info3 .x .info12{
+            margin-bottom:5% ;
+            
+        }
+        
+        .info3 .x .info12 input{
+            height: 40px;
+            width: 350px;
+            border: 1px solid #ced4da;
+            margin-bottom: 15px;
+            padding-left: 10px;
+        }
+        
+        .info3 .x .info12 button{
+            padding: 15px 25px;
+            border-radius: 8px;
+            border: 1px solid transparent;
+            color: white;
+        background-color: #7b7b7a;
+           
+        }
+        
+        .info3 .x .info12 button:hover{
+            background-color:rgb(96, 237, 110);
+            box-shadow: 12px 30px 30px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s;
+        }
+        
+        footer{
+            font-size: 10px;
+        padding: 15px 0;
+        background-color: rgb(0, 0, 0);
+        color: beige;
+        text-align: center;
+        }
+        footer h1{
+            padding-bottom: 15px;
+        }
+        @media(max-width:950px) {
+            header .toggler {
+                    display: block;
+                    margin-left: auto;
+                    font-size: 35px;
+               color: chartreuse;
+            
+                }
+                header .nav{
+               
+                    width: 70%;}
+                
+                header .nav .logo{
+                    width: 40px;}
+        
+                    header .nav .navbar ul{
+                        display: none;
+                      }
+                      .info h1 {
+                        font-size: 53px;
+                    }
+                    .info p {
+                        font-size: 20px;
+                    }
+                    .info .x{
+                     width: 95%; 
+                    
+                    }
+                    .info .x .img1 {
+                        width: 29%;
+                        height: 72vh;
+                        margin-left: 50px;
+                  }
+                  .info .x .img2 {
+                    width: 30%;
+                    height: 68vh;
+                    margin-left: 0px;
+                   }
+                   .info .x .img3 {
+                    width: 29%;
+                    height: 67vh;
+                    margin-right: 10px;
+                }
+                .info2 .x{
+                    
+                 width: 95%;}
+                 .info2 .img {
+                    padding-left: 18px;
+                    width: 32%;
+                }
+                .info2 .img img {
+                    border-radius: 40px;
+                    width: 210%;
+                }
+                .info2 .x .inf {
+                    width: 21%;
+                    padding-right: 3px;
+                }
+                .info2 .x .inf2 {
+                    width: 22%;
+                    padding-right: 6px;
+                    height: 18vh;
+                    margin-top: 126px;
+                }
+                .info2 .x .inf3 {
+                    width: 20%;
+                    padding-right: 7px;
+
+                    height: 18vh;
+                   
+                }
+                
+
+.info3 .x {
+    width: 86%;}
+    .info3 .x .x1 {
+        width: 40%;
+    }
+    .info3 .x .x1 h1 {
+        padding-bottom: 25px;
+        font-size: 48px;
+    }
+    .info3 .x .x1 p { 
+    font-size: 18px;
+    }
+    .info3 .x1 .social ul li {
+        width: 22px;
+    }
+    .info3 .x .info12 {
+        width: 57%;
+    }
+    .info3 .x .info12 button {
+        padding: 15px 59px;
+    }}
+    @media(max-width:740px){
+        header .toggler {     
+            margin-right: 25px;
+            font-size: 43px;
+        }
+     
+        header .nav .logo{
+            width: 48px;}
+
+            .info p {
+                font-size: 15px;
+            }
+            .info .x{
+                width: 100%; 
+               
+               }
+               .info .x .img1 {
+                width: 31%;
+                height: 65vh;
+                margin-left: 18px;
+            }
+            .info .x .img2 {
+                width: 32%;
+                height: 61vh;
+            }
+            .info .x .img3 {
+                width: 30%;
+                height: 60vh;
+                margin-right: 7px;
+            }
+            .info2 .x {
+                width: 100%;
+            }
+            .info2 .img {
+                padding-left: 10px;
+                width: 21%;
+            }
+            .info2 .img img {
+                border-radius: 40px;
+                width: 320%;
+            }
+            .info2 .x .inf {
+                width: 25%;
+                padding-right: 0px;
+            }
+            .info2 .x .inf2 {
+                width: 25%;
+                padding-right: 5px;
+                height: 18vh;
+                margin-top: 128px;
+            }
+
+            .info2 .x .inf3 {
+                width: 25%;
+                padding-right: 7px;
+            }
+            .info3 .x {
+                width: 95%;
+            }
+            
+.info3 .x .x1 h1 {
+    padding-bottom: 15px;
+    font-size: 37px;
+}
+.info3 .x .info12 {
+    width: 60%;
+}
+.info3 .x .info12 input {
+    
+    width: 310px;
+}
+.info3 .x .info12 button {
+    padding: 14px 69px;
+}
+
+    }
+
+    @media(max-width:600px){
+        header .toggler {
+               
+            margin-left: 120px;
+            
+        }
+
+
+        .info{
+            padding: 100px 0 71px 0;
+            
+        }
+        .info h1{
+            font-size: 33px;
+            padding-bottom: 10px;
+        }
+        .info p{
+            font-size: 13px;
+        }
+        .info .x{
+            display: block;
+         width: 100%;
+        }
+        .info .x .img1 {
+            width: 92%;
+            height: 55vh;
+            margin-left: 17px;
+        }
+        .info .x .img2 {
+            width: 92%;
+            height: 55vh;
+            margin-left: 21px;
+            margin-top: 43px;
+        }
+        .info .x .img3 {
+            width: 92%;
+            height: 55vh;
+            margin-right: 0px;
+            margin-left: 21px;
+            margin-top: 43px;
+        }
+        .info2 {
+            padding-top: 85px;
+        }
+        .info2 .x{
+            display: block;
+         width: 100%;
+    }
+    .info2 .img {
+        padding-left: 23px;
+        width: 27%;
+    }
+    .info2 .x .inf {
+        width: 66%;
+      margin-left: 67px;
+      margin-top: 31px;
+      border-radius: 70px;
+    }
+    .info2 .x .inf2 {
+        width: 66%;
+      margin-left: 67px;
+      margin-top: 31px;
+      border-radius: 70px;
+    }
+    .info2 .x .inf3 {
+        width: 66%;
+      margin-left: 67px;
+      margin-top: 31px;
+      border-radius: 70px;
+    }
+    .info3 .x{
+        display: block;
+     width: 88%;
+    
+    }
+    .info3 .x .x1 {
+        width: 96%;
+    }
+    .info3 .x .x1 h1 {
+        font-size: 46px;
+    }
+    .info3 .x1 .social ul li {
+        width: 29px;
+    }
+    .info3 .x .info12 {
+        width: 86%;
+        
+    }
+
+    }
+
+
+
+                    
